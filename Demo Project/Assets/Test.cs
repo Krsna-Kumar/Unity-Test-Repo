@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    [SerializeField] private float upSpeed;
+    [SerializeField] private float upSpeed = 50f;
     [SerializeField] private float horizontalSpeed;
     Rigidbody2D rb;
     
